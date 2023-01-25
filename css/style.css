@@ -57,12 +57,13 @@ footer.page-footer {
 }
 
 body { 
+	width:100%
 	margin: 0;
 	background-image: url('../img/bg3.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 
 }
 
@@ -1322,12 +1323,13 @@ h3 {
   }
 }
 body { 
+	width:100%;
 	margin: 0;
 	background-image: url('../img/bg3.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 
 }
 
