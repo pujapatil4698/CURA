@@ -1,0 +1,119 @@
+body {
+  background: #252529;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  width: 100%;
+  overflow-x:hidden;
+  
+  background-image: url('../img/background.png');
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+  /*background-repeat: no-repeat;
+*/
+}
+.centered {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+  position: fixed;
+  bottom: 50px;
+  right: 0%;
+  left: 0;
+  margin: auto;
+}
+
+
+
+
+
+
+/* layer stylings */
+
+ul li.layer h1.layer_heading {
+  font-family: 'Sofia'; 
+  color:#fff;
+  font-weight:lighter;
+  font-size:100px;
+
+
+  color: #fc744a;
+  background-image: -webkit-linear-gradient(92deg, #ff9100, #fffbca);
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /*-webkit-animation: hue 100s infinite linear;
+
+  */
+}
+
+
+ul li.layer h1#countdown {
+  color:#fff;
+  font-size:50px;
+  line-height:80px;
+}
+ul li.layer h1#countdown  span {
+  font-size:20px;
+}
+#countdown div span {
+  display:block;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: initial;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#countdown div {
+  display:inline-block;
+  margin: 0 34px;
+}
+
+
+@media screen and (max-width:700px) {
+  
+  ul li.layer h1.layer_heading {
+    font-family: 'Sofia'; 
+    color:#fff;
+    font-weight:lighter;
+    font-size:40px;
+  }
+  ul li.layer h1#countdown {
+    color:#fff;
+    font-size:25px;
+    line-height:20px;
+  }
+  ul li.layer h1#countdown  span {
+    font-size:15px;
+  }
+  
+  #countdown div span {
+    display:block;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: initial;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+
+  ul.scene li.abhivyakti_layer {
+    height:50%;
+    display:none;
+  }
+  
+}
+
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}
+
+
+
