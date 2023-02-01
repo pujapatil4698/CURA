@@ -1,0 +1,47 @@
+/*Buuton more*/
+button{
+  background:none;
+  color:#000000;
+  width: 160px;
+  height: 40px;
+  border:1.5px solid #FF8C00;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  size: contain;
+
+
+}
+
+button : focus{
+outline: none;
+}
+button : before {
+    content: '';
+    display: block;
+    position: absolute;
+    background:rgba(255,255,255,.5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+button:hover{
+  background: #FF8C00;
+  cursor: pointer; 
+}
+button:hover:before{
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s;
+  font-color:#FF8C00;
+}
+button:hover:before{
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s;
+}
