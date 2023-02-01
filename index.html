@@ -301,6 +301,67 @@
 			</div>
 		</div>
 	</div>
+	<div class="contact_us contact_us_main" id="contact_us">
+		<div class="heading">
+			<h1 class="heading_title">
+				Contact Us
+				<hr class="light" />
+			</h1>
+		</div>
+		
+		<div class="row center">
+			<div class="col s12 m8">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7457468286448!2d75.54658771493219!3d21.002826586012358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90fc9945a06b3%3A0x2adbed89161ccac2!2sGovernment+College+of+Engineering!5e0!3m2!1sen!2sin!4v1506286742665" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="col s12 m4 center">
+				<br><i class="fa fa-map-marker" style="font-size:25px;"> </i><br>
+				<p>National Institute of Technology Warangal,NH 163, Hanumakonda - 506 004, Telangana State, INDIA</p>
+				<i class="fa fa-mail" style="font-size:25px;"></i><br>
+				<p>cura@nitw.ac.in</p>
+			</div>
+		</div>
+	</div>
+	<div class="contact_us footer_main">
+		<p>
+			Designed And Developed By Puja. <br/>All &copy; Reserved at School of Management, NITW.
+		</p>
+		
+	</div>
 
+
+	
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script  src="js/index.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Add smooth scrolling to all links
+			$("a").on('click', function(event) {
+		
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+		
+				// Store hash
+				var hash = this.hash;
+		
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top
+				}, 300, function(){
+			
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+				});
+			} // End if
+			});
+		});
+	</script>
 </body>
 </html>
